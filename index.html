@@ -23,6 +23,12 @@
         .water-effect {
             background: linear-gradient(135deg, #0077B5 0%, #00A4CC 100%);
         }
+        .testimonial-card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 16px;
+            border-left: 4px solid #0077B5;
+        }
     </style>
 </head>
 <body class="bg-slate-100 min-h-screen flex items-center justify-center p-4">
@@ -37,22 +43,71 @@
             </div>
             <h1 class="text-2xl font-bold">RB Piscinas</h1>
             <p class="text-sm opacity-90 mt-1">Soluções completas em limpeza</p>
+            <p class="text-xs mt-2 bg-white/20 inline-block px-3 py-1 rounded-full">📍 Piracicaba - SP e Região</p>
         </div>
 
         <!-- Conteúdo -->
         <div class="p-6">
+            <!-- Sobre Nós -->
+            <div class="text-center mb-6 bg-blue-50 p-4 rounded-xl">
+                <h3 class="text-primary font-bold mb-2">👤 Quem sou eu?</h3>
+                <p class="text-slate-600 text-sm">Sou o <strong>Roberio</strong>, profissional especializado em deixar sua piscina sempre cristalina. Trabalho com seriedade, rapidez e o melhor preço da região! 💧🤝</p>
+            </div>
+
             <!-- Frase de Efeito -->
             <div class="text-center mb-6">
                 <p class="text-slate-700 font-semibold text-lg">💧 Água Cristalina e Serviço de Qualidade!</p>
                 <p class="text-slate-500 text-sm">Não deixe sua piscina suja, chame quem entende do assunto! 🚀</p>
             </div>
 
-            <!-- Botão WhatsApp -->
+            <!-- SEÇÃO DEPOIMENTOS -->
+            <div class="mb-6">
+                <h3 class="text-center text-xl font-bold text-slate-700 mb-4">⭐ O que nossos clientes dizem</h3>
+                
+                <div class="testimonial-card mb-4">
+                    <div class="flex items-center mb-2">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm text-slate-600 italic">"Serviço excelente! Minha piscina ficou limpa e com água cristalina. Recomendo muito!"</p>
+                    <p class="text-xs font-bold text-slate-500 mt-2">- Cliente Satisfeito</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-2">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm text-slate-600 italic">"Ótimo atendimento e preço justo. O melhor da região!"</p>
+                    <p class="text-xs font-bold text-slate-500 mt-2">- Cliente Satisfeito</p>
+                </div>
+            </div>
+            <!-- FIM SEÇÃO DEPOIMENTOS -->
+
+            <!-- BOTÃO WHATSAPP GRANDE E DESTAQUE -->
             <a href="https://wa.me/5519997786043?text=Olá,%20RB%20Piscinas!%20Quero%20solicitar%20um%20orçamento." 
                target="_blank"
-               class="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-105 shadow-lg">
+               class="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-105 shadow-lg mb-4">
                 <i class="fa-brands fa-whatsapp text-2xl"></i>
                 Fale Conosco pelo WhatsApp
+            </a>
+
+            <!-- Botão Instagram -->
+            <a href="https://www.instagram.com/rb_picinas?igsh=dTFxOG1reWFnOHk2" 
+               target="_blank"
+               class="flex items-center justify-center gap-3 bg-pink-600 hover:bg-pink-700 text-white py-3 rounded-xl font-semibold transition-all shadow-md">
+                <i class="fa-brands fa-instagram text-xl"></i>
+                Acesse nosso Instagram
             </a>
 
             <p class="text-center text-xs text-slate-400 mt-6">© 2025 RB Piscinas - Todos os direitos reservados</p>
@@ -61,5 +116,4 @@
     </div>
 
 </body>
-  </html>
-  
+</html>
